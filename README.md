@@ -17,6 +17,8 @@ Sistema físico da RIFORT (Sensores para contagem de lotação de ônibus públi
 
   * O protótipo físico será desenvolvido utilizando a plataforma de prototipagem eletrônica Arduíno;
   * O protótipo usará sensores ultrassônicos para identificar o movimento dos passageiros e realizar a contagem;
+  * Para evitar duas ou mais contagens sobre um mesmo passageiro, o sensor não realizará a contagem caso seja verificado que o movimento já tinha sido detectado anteriormente;
+  * O protótipo utilizará duas protoboards, uma tela LCD l2C para exibição, uma fonte de alimentação externa e os cabos macho/fêmea e macho/macho para a conexão geral;
   * O sistema será desenvolvido utilizando a linguagem de programação C++;
   * O sistema utilizará a biblioteca LiquidCrystal_I2C para fazer a comunicação com o display na tela LCD;
   * O sistema utilizará a biblioteca Wire para fazer a comunicação com o LCD;
