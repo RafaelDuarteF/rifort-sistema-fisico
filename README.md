@@ -1,11 +1,20 @@
 # SISTEMA FÍSICO RIFORT
-Sistema físico da RIFORT (Sensores para contagem de lotação dos ônibus)
+Sistema físico da RIFORT (Sensores para contagem de lotação de ônibus públicos)
 
 ## Requisitos 
 
-###Requisitos funcionais
+### Requisitos funcionais
+
+  * O sistema deverá incrementar mais um passageiro a cada entrada;
+  * O sistema deverá decrementar menos um passageiro a cada saída;
+  * O sistema deverá exibir a quantidade de passageiros presentes no ônibus na tela LCD;
+  * O sistema deverá exibir um alerta na tela LCD quando o total de passageiros no ônibus bater ou ultrapassar o limite máximo;
+  * O sistema deverá retirar a mensagem de alerta quando o total de passageiros descer para baixo do limite máximo.
 
 ### Requisitos não funcionais
+
+  * O protótipo físico será desenvolvido utilizando a plataforma de prototipagem eletrônica Arduíno;
+  * O sistema será desenvolvido utilizadno 
 
 ## Fluxograma de funcionamento da contagem
 
