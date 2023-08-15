@@ -21,7 +21,7 @@ Sistema físico da RIFORT (Sensores para contagem de lotação de ônibus públi
   * O protótipo utilizará duas protoboards, uma tela LCD l2C para exibição, uma fonte de alimentação externa e os cabos macho/fêmea e macho/macho para a conexão geral;
   * O sistema será desenvolvido utilizando a linguagem de programação C++;
   * O sistema utilizará a biblioteca LiquidCrystal_I2C para fazer a comunicação com o display na tela LCD;
-  * O sistema utilizará a biblioteca Wire para fazer a comunicação com o LCD;
+  * O sistema utilizará a biblioteca Wire para fazer a comunicação com o LCD.
 
 ## Fluxograma de funcionamento da contagem
 
