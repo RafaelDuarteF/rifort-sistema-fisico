@@ -5,7 +5,7 @@
 #define lin  4 // Serve para definir o numero de linhas do display utilizado
 #define ende  0x27 // Serve para definir o endereço do display.
 
-LiquidCrystal_I2C lcd_1(ende,col,lin); // Chamada da funcação LiquidCrystal para ser usada com o I2C
+LiquidCrystal_I2C lcd_1(ende,col,lin); // Chamada da função LiquidCrystal para ser usada com o I2C
 
 
 // Configurações iniciais do sistema
